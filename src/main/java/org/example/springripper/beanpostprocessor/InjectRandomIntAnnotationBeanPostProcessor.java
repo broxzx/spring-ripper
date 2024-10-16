@@ -1,5 +1,6 @@
-package org.example.springripper.quoters;
+package org.example.springripper.beanpostprocessor;
 
+import org.example.springripper.annotations.InjectRandomInt;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
