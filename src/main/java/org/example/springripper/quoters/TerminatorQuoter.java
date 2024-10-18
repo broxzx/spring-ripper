@@ -2,14 +2,13 @@ package org.example.springripper.quoters;
 
 import jakarta.annotation.PostConstruct;
 import lombok.Setter;
-import org.example.springripper.annotations.InjectRandomInt;
-import org.example.springripper.annotations.PostProxy;
-import org.example.springripper.annotations.Profiling;
+import org.example.springripper.annotations.*;
 import org.springframework.stereotype.Component;
 
 @Setter
 @Component
 @Profiling
+@DeprecatedClass(newImpl = T1000.class)
 public class TerminatorQuoter implements Quoter {
 
     private String message = "I'll be back";

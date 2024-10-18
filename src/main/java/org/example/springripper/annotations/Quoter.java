@@ -1,4 +1,4 @@
-package org.example.springripper.quoters;
+package org.example.springripper.annotations;
 
 public interface Quoter {
 

@@ -1,7 +1,6 @@
 package org.example.springripper;
 
-import org.example.springripper.quoters.Quoter;
-import org.example.springripper.quoters.TerminatorQuoter;
+import org.example.springripper.annotations.Quoter;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
